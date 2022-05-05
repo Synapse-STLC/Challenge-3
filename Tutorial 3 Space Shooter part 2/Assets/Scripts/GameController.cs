@@ -86,7 +86,7 @@ public class GameController : MonoBehaviour
 
         if (score >= 100)
         {
-            createdByText.text = "YOU WIN! GAME CREATED BY CHRISTIAN PERELLO";
+            createdByText.text = "YOU WIN!";
             gameOver = true;
         }
     }
